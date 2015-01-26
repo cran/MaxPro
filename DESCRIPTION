@@ -1,0 +1,14 @@
+Package: MaxPro
+Type: Package
+Title: Maximum Projection Designs
+Version: 3.1-1
+Date: 2015-01-26
+Author: Shan Ba and V. Roshan Joseph
+Maintainer: Shan Ba <shanbatr@gmail.com>
+Depends: nloptr
+Description: Generate a maximum projection (MaxPro) design, a MaxPro Latin hypercube design or improve an initial design based on the MaxPro criterion. Details of the MaxPro criterion can be found in: Joseph, V. R., Gul, E., and Ba, S. (2015) "Maximum Projection Designs for Computer Experiments", Biometrika.
+License: LGPL-2.1
+Packaged: 2015-01-26 20:23:37 UTC; ba.s
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2015-01-27 07:39:52
