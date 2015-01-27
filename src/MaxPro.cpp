@@ -349,8 +349,8 @@ void MaxProLHD(int *mRow, int *Col, int *nstarts, int *IterMax, int *Total_Iter,
 	delete[]d;
 	delete[]d_old;
 
-	delete[]avgdist_cur;
-	delete[]avgdist_old;
+	delete avgdist_cur;
+	delete avgdist_old;
 }
 
 
@@ -610,8 +610,8 @@ void MaxProLHD(int *mRow, int *Col, int *nstarts, int *IterMax, int *Total_Iter,
 	delete[]d;
 	delete[]d_old;
 
-	delete[]avgdist_cur;
-	delete[]avgdist_old;
+	delete avgdist_cur;
+	delete avgdist_old;
 }
 
 

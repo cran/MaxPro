@@ -33,7 +33,7 @@ The value returned from the function is a list containing the following componen
 \item{measure}{The MaxPro criterion measure for the locally optimal design}
 }
 \references{
-Joseph, V. R., Gul, E., and Ba, S. (2015) "Maximum Projection Designs for Computer Experiments", \emph{Biometrika}, to appear.
+Joseph, V. R., Gul, E., and Ba, S. (2015) "Maximum Projection Designs for Computer Experiments," \emph{Biometrika}.
 
 Ypma, J. (2014) "Introduction to nloptr: an R interface to NLopt", R Package Version 1.0.0.
 }

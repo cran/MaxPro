@@ -8,8 +8,8 @@ Improve a Latin Hypercube Design based on the Maximum Projection Criterion
 Improve an initial Latin hypercube design by permuting its levels for each variable based on the maximum projection (MaxPro) criteion
 }
 \usage{
-MaxProImproveLHD(InitialDesign,s=2,localopm=FALSE,temp0=0,
-nstarts=1,itermax=400,total_iter=1e+06)
+MaxProImproveLHD(InitialDesign,s=2,localopm=FALSE,temp0=0,nstarts=1,itermax=400,
+total_iter=1e+06)
 }
 
 \arguments{
@@ -48,7 +48,7 @@ The value returned from the function is a list containing the following componen
 \item{ntotal}{The total number of iterations}
 }
 \references{
-Joseph, V. R., Gul, E., and Ba, S. (2015) "Maximum Projection Designs for Computer Experiments", \emph{Biometrika}, to appear.
+Joseph, V. R., Gul, E., and Ba, S. (2015) "Maximum Projection Designs for Computer Experiments," \emph{Biometrika}.
 }
 \author{
 Shan Ba <shanbatr@gmail.com> and V. Roshan Joseph <roshan@isye.gatech.edu>

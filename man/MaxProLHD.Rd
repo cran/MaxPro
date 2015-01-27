@@ -47,7 +47,7 @@ The value returned from the function is a list containing the following componen
 \item{ntotal}{The total number of iterations}
 }
 \references{
-Joseph, V. R., Gul, E., and Ba, S. (2015) "Maximum Projection Designs for Computer Experiments", \emph{Biometrika}, to appear.
+Joseph, V. R., Gul, E., and Ba, S. (2015) "Maximum Projection Designs for Computer Experiments," \emph{Biometrika}.
 }
 \author{
 Shan Ba <shanbatr@gmail.com> and V. Roshan Joseph <roshan@isye.gatech.edu>
