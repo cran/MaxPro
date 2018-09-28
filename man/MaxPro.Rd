@@ -2,10 +2,10 @@
 \alias{MaxPro}
 
 \title{
-Locally Optimal Maximum Projection Designs
+Locally Optimal Maximum Projection Designs for Continuous Factors
 }
 \description{
-Find the locally optimal maximum projection (MaxPro) design in the neighborhood of a given initial design
+Find the locally optimal maximum projection (MaxPro) design in the neighborhood of a given initial design for continuous factors.
 }
 \usage{
 MaxPro(InitialDesign,s=2,iteration=10)
@@ -33,7 +33,7 @@ The value returned from the function is a list containing the following componen
 \item{measure}{The MaxPro criterion measure for the locally optimal design}
 }
 \references{
-Joseph, V. R., Gul, E., and Ba, S. (2015) "Maximum Projection Designs for Computer Experiments," \emph{Biometrika}.
+Joseph, V. R., Gul, E., and Ba, S. (2015) "Maximum Projection Designs for Computer Experiments," \emph{Biometrika}, 102, 371-380.
 
 Ypma, J. (2014) "Introduction to nloptr: an R interface to NLopt", R Package Version 1.0.0.
 }
@@ -44,6 +44,9 @@ Shan Ba <shanbatr@gmail.com> and V. Roshan Joseph <roshan@isye.gatech.edu>
 
 %% ~Make other sections like Warning with \section{Warning }{....} ~
 
+\seealso{
+\code{\link{MaxProLHD}}, \code{\link{MaxProRunOrder}}, \code{\link{MaxProAugment}}
+}
 
 \examples{
 

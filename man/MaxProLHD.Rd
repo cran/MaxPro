@@ -2,10 +2,10 @@
 \alias{MaxProLHD}
 
 \title{
-Maximum Projection Latin Hypercube Designs
+Maximum Projection Latin Hypercube Designs for Continuous Factors
 }
 \description{
-Generate the maximum projection (MaxPro) Latin hypercube design based on a simulated annealing algorithm
+Generate the maximum projection (MaxPro) Latin hypercube design for continuous factors based on a simulated annealing algorithm. If nominal, discrete numeric, or ordinal factors exist, please see the function \code{\link{MaxProQQ}}.
 }
 \usage{
 MaxProLHD(n, p, s=2, temp0=0, nstarts = 1, itermax = 400, total_iter = 1e+06)
@@ -35,7 +35,7 @@ Optional, default is ``1e+06''.The maximum total number of iterations. Lower thi
 }
 }
 \details{
-This function utilizes a version of the simulated annealing algorithm to efficiently generate the optimal Latin hypercube designs based on the MaxPro criterion. Parameters in the algorithm may need to be properly tuned to achieve global convergence. Please refer to Joseph, Gul and Ba (2015) for details.
+This function utilizes a version of the simulated annealing algorithm to efficiently generate the optimal Latin hypercube designs for continuous factors based on the MaxPro criterion. Parameters in the algorithm may need to be properly tuned to achieve global convergence. Please refer to Joseph, Gul and Ba (2015) for details.
 }
 
 \value{
@@ -47,7 +47,7 @@ The value returned from the function is a list containing the following componen
 \item{ntotal}{The total number of iterations}
 }
 \references{
-Joseph, V. R., Gul, E., and Ba, S. (2015) "Maximum Projection Designs for Computer Experiments," \emph{Biometrika}.
+Joseph, V. R., Gul, E., and Ba, S. (2015) "Maximum Projection Designs for Computer Experiments," \emph{Biometrika}, 102, 371-380.
 }
 \author{
 Shan Ba <shanbatr@gmail.com> and V. Roshan Joseph <roshan@isye.gatech.edu>
@@ -56,6 +56,9 @@ Shan Ba <shanbatr@gmail.com> and V. Roshan Joseph <roshan@isye.gatech.edu>
 
 %% ~Make other sections like Warning with \section{Warning }{....} ~
 
+\seealso{
+\code{\link{MaxProRunOrder}}, \code{\link{MaxProAugment}}, \code{\link{MaxProQQ}}
+}
 
 \examples{
 

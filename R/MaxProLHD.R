@@ -34,7 +34,7 @@ function(n,p,s=2,temp0=0,nstarts=1,itermax=400,total_iter=1000000){
     return(exp((value-log(choose(n,2)))/(p*s)))
   }
   
-  measure<-prod_criterion(scaled_deisgn)
+  measure<-(prod_criterion(scaled_deisgn))^2
   
   val<-list(Design=scaled_deisgn,temp0=temp0,measure=measure,time_rec=time_rec,ntotal=aaa$ntotalI)
   

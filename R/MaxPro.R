@@ -42,7 +42,7 @@ MaxPro<-function(InitialDesign,s=2,iteration=10){
       logDIST=logDIST+s*log(dist(D[,j]))
     imin=which.min(logDIST)
     value=-logDIST[imin]+log(sum(exp(logDIST[imin]-logDIST)))
-    return(exp((value-log(choose(n,2)))/(p*s)))
+    return(exp((value-log(choose(n,2)))/(p)))
   }
   
   Q1=prod_criterion(D1)

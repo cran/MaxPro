@@ -1,4 +1,5 @@
 import(nloptr)
-useDynLib(MaxPro)
-export(MaxProLHD,MaxProImproveLHD,MaxPro)
+importFrom("stats","dist")
+useDynLib(MaxPro, .registration = TRUE)
+export(MaxProLHD,MaxPro,MaxProQQ,MaxProAugment,MaxProRunOrder,MaxProMeasure,CandPoints)
 
